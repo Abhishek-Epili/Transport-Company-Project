@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Transport Company Project</title>
+        <link rel="stylesheet" href="styling.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+    <body>
+    
+        <h1>Registration Page</h1>
+        <form action="transport">
+            <input type="hidden" value="Page2" name="page">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="age" required></td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td><input type="tel" name="contact" pattern="[0-9]{10}" required title="Contact number should be contain exact 10 digits"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Create Password</td>
+                    <td><input type="password" name="pass2" required></td>
+                </tr>
+                <tr>
+                    <td>Re-enter Password</td>
+                    <td><input type="password" name="rpass" required></td>
+                </tr>
+                <tr>
+                     <td></td>
+                     <td><input type="submit" value="Create Account" ></td>
+                </tr>
+            </table>
+            <a href="login.html">Go to Login Page</a>
+        </form>
+    
+    </body>
+</html>

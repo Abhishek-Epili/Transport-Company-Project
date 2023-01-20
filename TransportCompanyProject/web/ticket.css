@@ -1,0 +1,58 @@
+
+.bus_ticket{   
+     font-size: 30px; 
+     font-family: 'Mongolian Baiti';
+     background-image: url('bus_ticket.jpg');
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 1380px 780px;
+}
+.bus_table{     
+      text-align: center;
+      margin-top:10px;
+      width:800px;
+}
+
+.bus_no{
+   margin-left:250px;
+   margin-top: 50px;
+   font-weight: bold;
+}
+
+.air_ticket{ 
+    font-size: 30px; 
+    font-family: 'Mongolian Baiti';
+    background-image: url('air_ticket.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+}
+
+.air_table1{    
+    text-align: left;    
+    margin-top:180px;    
+    margin-left: 80px;   
+    width: 820px;
+}
+
+.air_table2{   
+    font-size: 20px;    
+    text-align: left;   
+    margin-top:150px;   
+    margin-left: 25px;    
+    width: 350px;
+}
+
+.air_row {   
+    display: flex;    
+    margin-left:-5px;    
+    margin-right:-5px;
+}
+
+.air_column {    
+    flex: 50% ;    
+    padding: 5px;
+}   
+
