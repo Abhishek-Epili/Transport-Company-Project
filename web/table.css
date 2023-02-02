@@ -1,0 +1,21 @@
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1380px 700px;
+    font-family: "Mongolian Baiti";
+    margin: 0px;
+}
+table{
+    margin-left: 20px;
+    margin-top: 150px;
+    font-size: 27px;
+}
+th{
+    background-color: red;
+    color: white;
+}
+td{
+    background-color: white;
+}
